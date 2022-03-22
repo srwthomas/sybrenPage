@@ -67,6 +67,11 @@
 
 // Everything below normal 11-12inch laptop (tablet, big phone etc)
 @media (max-width: 1200px) {
+  .imageLayout{
+    display:flex;
+    align-items: center;
+    justify-content:end;
+  }
   .contactText h5 {
     font-size: 0.9rem;
   }
