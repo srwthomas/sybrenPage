@@ -22,8 +22,9 @@
 // Styling + font + position of contact text ( email, address )
 .contactText {
   h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 200;
+    line-height: 1.7rem;
   }
 }
 
@@ -37,6 +38,9 @@
   width: 90%;
   height: 90%;
   object-fit: cover;
+  // padding-left: 1rem;
+  // padding-right: 1rem;
+
 }
 
 //
