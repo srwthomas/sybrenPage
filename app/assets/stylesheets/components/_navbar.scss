@@ -1,21 +1,20 @@
+// General placement of all pieces of nav bar (Name + links)
 .navbar {
   padding-top: 0.8em;
   padding-bottom: 0.5rem;
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  a:hover {
-    color:black;
-  }
 }
 
-
-.navbar-brand {
+// Navbar links
+.titleLink {
+  color: black;
+  text-decoration: none;
   font-family: 'Smooch Sans', sans-serif;
   font-size: 1.3rem;
   font-weight: lighter;
   margin-left: 2em;
+  &:hover {
+    color:rgb(48, 25, 52);
+  }
 }
 
 .nav-item {
@@ -24,18 +23,9 @@
     color: grey;
     font-family: 'Smooch Sans', sans-serif;
     font-weight: lighter;
+    text-decoration: none;
   }
-}
-
-.nav-link {
-  a{
-    color: lightgray;
-    font-family: 'Smooch Sans', sans-serif;
-    font-weight: lighter;
+  a:hover {
+    color: black;
   }
-
-}
-
-.navbar-toggler {
-  color: black;
 }
