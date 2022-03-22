@@ -1,0 +1,80 @@
+//
+.layout {
+  display: flex;
+  // justify-content: space-around;
+  align-items: center;
+  font-family: 'Smooch Sans', sans-serif;
+  padding: 2em;
+}
+
+// Styling + font + position of title
+.title {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Smooch Sans', sans-serif;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+}
+
+// Styling + font + position of contact text ( email, address )
+.contactText {
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+}
+
+// Ensures text is in a box with space around the outside of it (the text)
+.textBox {
+  justify-content: space-around;
+}
+
+// Styling + position of image setting the general size (affected by resiziing on different sized devices - more below)
+.contactImage {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+//
+.imageText {
+  display:flex;
+  align-items: center;
+  justify-content: end;
+}
+
+// Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
+// All devices up to a width of 575 px = Most mobile Phones
+@media (max-width: 575.98px) {
+  .contactText h5 {
+    font-size: 0.7rem;
+  }
+  .contactImage {
+    width: 110%;
+    height: 110%;
+  }
+  .footerContainer {
+    margin-top: 10rem;
+  }
+}
+
+// Everything below normal 11-12inch laptop (tablet, big phone etc)
+@media (max-width: 1200px) {
+  .contactText h5 {
+    font-size: 0.9rem;
+  }
+  .footerContainer {
+    margin-top: 10rem;
+  }
+}
+
+// Sets image to be stuck close to contact-text on screens larger than 1300px (most laptops)
+@media (min-width: 1300px) {
+  .imageLayout{
+    display:flex;
+    align-items: center;
+    justify-content:end;
+  }
+}

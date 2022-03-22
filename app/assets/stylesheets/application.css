@@ -13,5 +13,12 @@
  *= require_tree .
  *= require_self
  */
-
+/* Styling import into web of components */
  @import "components/index";
+
+ /*  */
+ @import "config/bootstrap_variables";
+
+
+ /* Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;400&display=swap');

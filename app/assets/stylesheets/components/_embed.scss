@@ -1,0 +1,17 @@
+.embedVid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2em;
+}
+
+#embed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Media breakpoints (screen resizing everything below 1200 (small laptop) will recieve settings
+@media (max-width: 1200px) {
+
+}
