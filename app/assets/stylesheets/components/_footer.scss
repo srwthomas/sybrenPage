@@ -1,16 +1,26 @@
-.social-icon {
-  margin: 0.25rem;
-  padding: 1em;
-}
+
 
 #footer {
   text-align: center;
   padding: 3em;
   margin-top: 1em;
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: 100;
+  font-size: small;
 }
 
 hr {
   width: 50%;
   margin: 0.5em 25% 0.5em 25%;
   margin-bottom: 3em;
+}
+
+// Social media icons (and hover colour change)
+.social-icon, a {
+  margin: 0.25rem;
+  padding: 0.5em;
+  color: #212529;
+  a:hover {
+    color: grey;
+  }
 }
