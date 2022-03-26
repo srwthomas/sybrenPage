@@ -30,9 +30,11 @@
   }
 }
 
-.nav-item.active, a{
-  color: black;
-  // a:active {
-  //   color: black;
-  // }
-}
+// .nav-item:active {
+//   a {
+//     color: black;
+//   }
+// }
+
+// <%= 'active' if current_page?(contact_path) %>
+// <%= 'active' if current_page?(root_path) %>
