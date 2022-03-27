@@ -1,4 +1,4 @@
-//
+// Page style container box centering etc
 .layout {
   display: flex;
   // justify-content: space-around;
@@ -58,6 +58,9 @@
     align-items: center;
     font-family: 'Smooch Sans', sans-serif;
     padding: 2em;
+  }
+  .imageText {
+    justify-content: center;
   }
   .contactImage {
     width: 110%;
