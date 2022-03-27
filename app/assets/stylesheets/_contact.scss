@@ -16,7 +16,7 @@
   h2 {
     font-size: 1.5rem;
     font-weight: 200;
-}
+  }
 }
 
 // Styling + font + position of contact text ( email, address )
@@ -38,12 +38,9 @@
   width: 90%;
   height: 90%;
   object-fit: cover;
-  // padding-left: 1rem;
-  // padding-right: 1rem;
-
 }
 
-//
+// Image section
 .imageText {
   display:flex;
   align-items: center;
