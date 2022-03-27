@@ -12,12 +12,11 @@
  *
  *= require_tree .
  *= require_self
- */
-/* Styling import into web of components */
- @import "components/index";
 
- /*  */
- @import "config/bootstrap_variables";
+ /*
+
+ */
+ @import 'config/bootstrap_variables';
 
 
  /* Fonts */
