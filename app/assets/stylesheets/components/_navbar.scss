@@ -32,6 +32,45 @@
   }
 }
 
+// media queries (resizing)
+// All devices up to a width of 575 px = Most mobile Phones
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-top: 0.8em;
+    padding-bottom: 0.5rem;
+  }
+}
+
+// Everything below normal 11-12inch laptop (tablet, big phone etc)
+@media (max-width: 1200px) {
+  .navbar {
+    padding-top: 1em;
+    padding-bottom: 0.9rem;
+  }
+  .titleLink {
+    margin-left: 0;
+    padding-left: 0;
+    font-weight:200;
+  }
+  .nav-item {
+    padding-right: 0;
+  }
+}
+
+// screns smaller than 1300 px
+@media (max-width: 1300px) {
+  .navbar {
+    padding-top: 1em;
+    padding-bottom: 0.9rem;
+  }
+  .titleLink {
+    margin-left: 0;
+  }
+  .nav-item {
+    padding-right: 0;
+  }
+}
+
 // .nav-item:active {
 //   a {
 //     color: black;
