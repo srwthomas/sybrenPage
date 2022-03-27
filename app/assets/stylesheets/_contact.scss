@@ -52,6 +52,13 @@
 // Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
 // All devices up to a width of 575 px = Most mobile Phones
 @media (max-width: 575.98px) {
+  .layout {
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif;
+    padding: 2em;
+  }
   .contactImage {
     width: 110%;
     height: 110%;
