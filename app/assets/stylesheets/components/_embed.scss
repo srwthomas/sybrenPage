@@ -18,8 +18,7 @@
 // Media breakpoints (screen resizing everything below 1200 (small laptop) will recieve settings
  @media (max-width: 600px) {
   iframe {
-    height: 936.88px;
-    width: 527px;
+    height: fit-content;
     padding-bottom: 1rem;
   }
  }
