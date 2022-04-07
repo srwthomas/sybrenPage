@@ -50,11 +50,11 @@
 }
 
 // Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
+
 // All devices up to a width of 575 px = Most mobile Phones
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .layout {
     display: flex;
-    // justify-content: space-around;
     align-items: center;
     font-family: 'Smooch Sans', sans-serif;
     padding: 2em;
@@ -74,8 +74,26 @@
   }
 }
 
+@media (max-width: 400px) {
+  .imageLayout{
+    display:flex;
+    align-items: center;
+    justify-content:end;
+  }
+  .contactText h5 {
+    font-size: 0.65rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+  }
+  .title, h2 {
+      font-size: 1.5rem;
+      font-weight: 200;
+      letter-spacing: 0.2rem;
+    }
+}
+
 // Everything below normal 11-12inch laptop (tablet, big phone etc)
-@media (max-width: 1200px) {
+@media (min-width: 700px) {
   .imageLayout{
     display:flex;
     align-items: center;

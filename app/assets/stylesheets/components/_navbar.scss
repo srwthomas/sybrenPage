@@ -45,8 +45,24 @@
   }
 }
 
+// small phone screen
+@media (max-width: 400px) {
+  .navbar {
+    padding-top: 0.8em;
+    // padding-bottom: 0.5rem;
+  }
+  .nav-item {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .nav-item a {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
 // Everything below normal 11-12inch laptop (tablet, big phone etc)
-@media (max-width: 1200px) {
+@media (min-width: 700px) {
   .navbar {
     padding-top: 1em;
     padding-bottom: 0.9rem;
