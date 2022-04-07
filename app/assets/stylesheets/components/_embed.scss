@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-// Media breakpoints (screen resizing everything below 1200 (small laptop) will recieve settings
+// Media breakpoints (screen resizing everything below 600px (phones) will recieve settings
  @media (max-width: 600px) {
   iframe {
     height: fit-content;
