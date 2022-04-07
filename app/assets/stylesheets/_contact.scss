@@ -69,31 +69,39 @@
   .footerContainer {
     margin-top: 10rem;
   }
-  .contactText, h5 {
+  .contactText h5 {
     font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
   }
 }
 
-@media (max-width: 400px) {
-  .imageLayout{
-    display:flex;
-    align-items: center;
-    justify-content:end;
-  }
-  .contactText h5 {
-    font-size: 0.65rem;
-    letter-spacing: 0.1rem;
-    font-weight: 400;
-  }
-  .title, h2 {
-      font-size: 1.5rem;
-      font-weight: 200;
-      letter-spacing: 0.2rem;
-    }
-}
+// @media (max-width: 400px) {
+//   .imageLayout{
+//     display:flex;
+//     align-items: center;
+//     justify-content:end;
+//   }
+//   .contactText h5 {
+//     font-size: 0.65rem;
+//     letter-spacing: 0.1rem;
+//     font-weight: 400;
+//   }
+//   .title, h2 {
+//       font-size: 1.5rem;
+//       font-weight: 200;
+//       letter-spacing: 0.2rem;
+//     }
+// }
 
 // Everything below normal 11-12inch laptop (tablet, big phone etc)
 @media (min-width: 700px) {
+  .layout {
+    display: flex;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif;
+    padding: 2em;
+  }
   .imageLayout{
     display:flex;
     align-items: center;
@@ -115,7 +123,7 @@
 }
 
 // Sets image to be stuck close to contact-text on screens larger than 1300px (most laptops)
-@media (min-width: 1300px) {
+@media (min-width: 1250px) {
   .imageLayout{
     display:flex;
     align-items: center;

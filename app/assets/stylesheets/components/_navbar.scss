@@ -10,7 +10,7 @@
   text-decoration: none;
   font-family: 'Smooch Sans', sans-serif;
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-left: 2em;
   letter-spacing: 0.2rem;
   &:hover {
@@ -36,8 +36,12 @@
 // All devices up to a width of 575 px = Most mobile Phones
 @media (max-width: 575.98px) {
   .navbar {
+    display: flex;
     padding-top: 0.8em;
     padding-bottom: 0.5rem;
+  }
+  .titleLink {
+    font-size: 1.3rem
   }
   .nav-item {
     padding-right: 0;
