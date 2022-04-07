@@ -59,6 +59,9 @@
     font-family: 'Smooch Sans', sans-serif;
     padding: 2em;
   }
+  .title h2 {
+    font-size: 1.2rem;
+  }
   .imageText {
     justify-content: center;
   }
@@ -76,23 +79,23 @@
   }
 }
 
-// @media (max-width: 400px) {
-//   .imageLayout{
-//     display:flex;
-//     align-items: center;
-//     justify-content:end;
-//   }
-//   .contactText h5 {
-//     font-size: 0.65rem;
-//     letter-spacing: 0.1rem;
-//     font-weight: 400;
-//   }
-//   .title, h2 {
-//       font-size: 1.5rem;
-//       font-weight: 200;
-//       letter-spacing: 0.2rem;
-//     }
-// }
+@media (max-width: 400px) {
+  .imageLayout{
+    display:flex;
+    align-items: center;
+    justify-content:end;
+  }
+  .contactText h5 {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+  }
+  .title, h2 {
+      font-size: 1rem;
+      font-weight: 200;
+      letter-spacing: 0.2rem;
+    }
+}
 
 // Everything below normal 11-12inch laptop (tablet, big phone etc)
 @media (min-width: 700px) {
