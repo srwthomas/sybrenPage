@@ -1,5 +1,3 @@
-
-
 #footer {
   text-align: center;
   padding: 3em;
@@ -24,3 +22,68 @@ hr {
     color: grey;
   }
 }
+
+// media queries (resizing)
+// All devices up to a width of 575 px = Most mobile Phones
+// @media (max-width: 575.98px) {
+//   #footer {
+//     padding-top: 0.8em;
+//     padding-bottom: 0.5rem;
+//   }
+//   hr {
+//     padding-right: 0;
+//     margin-right: 0;
+//   }
+//   .social-icon a {
+//     margin: 0.25rem;
+//     padding: 0.5em;
+//   }
+// }
+
+// // small phone screen
+// @media (max-width: 400px) {
+//   #footer {
+//     padding-top: 0.8em;
+//     padding-bottom: 0.5rem;
+//   }
+//   hr {
+//     padding-right: 0;
+//     margin-right: 0;
+//   }
+//   .social-icon a {
+//     margin: 0.25rem;
+//     padding: 0.5em;
+//   }
+// }
+
+// // Everything below normal 11-12inch laptop (tablet, big phone etc)
+// @media (min-width: 700px) {
+//   #footer {
+//     padding-top: 0.8em;
+//     padding-bottom: 0.5rem;
+//   }
+//   hr {
+//     padding-right: 0;
+//     margin-right: 0;
+//   }
+//   .social-icon a {
+//     margin: 0.25rem;
+//     padding: 0.5em;
+//   }
+// }
+
+// // screns smaller than 1300 px
+// @media (max-width: 1300px) {
+//   #footer {
+//     padding-top: 0.8em;
+//     padding-bottom: 0.5rem;
+//   }
+//   hr {
+//     padding-right: 0;
+//     margin-right: 0;
+//   }
+//   .social-icon a {
+//     margin: 0.25rem;
+//     padding: 0.5em;
+//   }
+// }
