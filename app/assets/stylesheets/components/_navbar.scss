@@ -18,6 +18,18 @@
   }
 }
 
+.tagline {
+  color: grey;
+  text-decoration: none;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+
+  &:hover {
+    color:rgb(48, 25, 52);
+  }
+}
+
 .nav-item {
   padding:1rem;
   a {
