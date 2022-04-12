@@ -30,6 +30,10 @@
   }
 }
 
+// #titles {
+//   justify-content: space-around;
+// }
+
 .nav-item {
   padding:1rem;
   a {
@@ -59,6 +63,9 @@
     padding-right: 0;
     margin-right: 0;
   }
+  // #titles {
+  //   justify-content: space-between;
+  // }
 }
 
 // small phone screen
@@ -91,6 +98,9 @@
   .nav-item {
     padding-right: 0;
   }
+  // #titles {
+  //   justify-content: space-between;
+  // }
 }
 
 // screns smaller than 1300 px
