@@ -9,6 +9,9 @@
  @media (max-width: 600px) {
   iframe {
     height: fit-content;
+    // padding-bottom: 1rem;
+  }
+  .embedVid {
     padding-bottom: 1rem;
   }
  }
