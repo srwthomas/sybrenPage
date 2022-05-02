@@ -5,12 +5,6 @@
   padding: 0.1em;
 }
 
-#embed {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 // Media breakpoints (screen resizing everything below 600px (phones) will recieve settings
  @media (max-width: 600px) {
   iframe {
