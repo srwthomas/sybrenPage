@@ -16,7 +16,8 @@
   }
  }
 
- @media (min-width:850px) and (max-width:991px) {
+ // Ipad sizing (size of iframe videos)
+ @media only screen and (min-width:850px) and (max-width:991px) {
   iframe {
     height: 21.875rem;
     padding: 0.625rem;
