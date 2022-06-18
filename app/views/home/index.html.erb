@@ -1,39 +1,61 @@
 <div class="container">
 
-  <%# Video containers - replace only section inside div called embedVid --> iframe with link from  %>
-  <%# To replace embeded video copy/paste section between <iframe .....<></iframe> %>
-  <%# Order First Video At TOP Of Site  %>
-
   <div class="embedVid">
-    <iframe src="https://player.vimeo.com/video/684403360?h=cd6aa00625&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <%# <iframe src="https://player.vimeo.com/video/684403360?h=cd6aa00625&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> %>
+
+    <%= link_to tom_path do %>
+      <%= image_tag "tomvb.png", class: "imgTile", title: "Tom Van Den Bogaard - Redemption" %>
+    <% end %>
   </div>
 
   <div class="embedVid">
-    <iframe src="https://player.vimeo.com/video/575360988?h=121b5ccfa8&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <%# <iframe src="https://player.vimeo.com/video/575360988?h=121b5ccfa8&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> %>
+
+    <%= link_to glennc_path do %>
+      <%= image_tag "glennc.png", class: "imgTile", title: "Glenn Coldenhoff - Giving Back" %>
+    <% end %>
   </div>
 
   <div class="embedVid">
-    <iframe src="https://player.vimeo.com/video/672692031?h=c4f72194d3&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <%# <iframe src="https://player.vimeo.com/video/672692031?h=c4f72194d3&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> %>
+    <%= link_to isabel_path do %>
+      <%= image_tag "isabel.png", class: "imgTile", title: "Dylan Van Dam - Isabel (Music Video)" %>
+    <% end %>
   </div>
 
   <div class="embedVid">
-    <iframe src="https://player.vimeo.com/video/656717601?h=809a4b4fb6&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  <%# <div class="embedVid">
-    <iframe src="https://player.vimeo.com/video/448605431?h=f3d5013a3a&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  </div> %>
-
-  <div class="embedVid">
-    <iframe src="https://player.vimeo.com/video/450078474?h=bb6fb23d32&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <%# <iframe src="https://player.vimeo.com/video/656717601?h=809a4b4fb6&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> %>
+    <%= link_to opdruq_path do %>
+      <%= image_tag "OPDRUQ.png", class: "imgTile", title: "OPDRUQ" %>
+    <% end %>
   </div>
 
   <div class="embedVid">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/473858570?h=41942112cd&byline=0&portrait=0" width="1162" height="648" frameborder="0"  allowfullscreen></iframe>
+    <%= link_to bok2019_path do %>
+      <%= image_tag "bok2019.png", class: "imgTile", title: "Onwies Knallen BMX - BOK 2019" %>
+    <% end %>
+    <%# <iframe src="https://player.vimeo.com/video/448605431?h=f3d5013a3a&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> %>
   </div>
 
   <div class="embedVid">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/604848994?h=e5c5caefa0&byline=0&portrait=0" width="1162" height="648" frameborder="0" allowfullscreen></iframe>
+    <%= link_to tomvdbmonsterenergy_path do %>
+      <%= image_tag "tomvdbmonsterenergy.png", class: "imgTile", title: "Tom Van Den Bogaard Monster Energy" %>
+    <% end %>
+    <%# <iframe src="https://player.vimeo.com/video/450078474?h=bb6fb23d32&byline=0&portrait=0" width="1162" height="648" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> %>
+  </div>
+
+  <div class="embedVid">
+    <%= link_to vinkkunststoffen_path do %>
+      <%= image_tag "vinkkunststoffen.png", class: "imgTile", title: "Vink Kunstoffen" %>
+    <% end %>
+    <%# <iframe title="vimeo-player" src="https://player.vimeo.com/video/473858570?h=41942112cd&byline=0&portrait=0" width="1162" height="648" frameborder="0"  allowfullscreen></iframe> %>
+  </div>
+
+  <div class="embedVid">
+    <%= link_to nalu_path do %>
+      <%= image_tag "nalu.png", class: "imgTile", title: "Nalu - Lost Frequenties BTS" %>
+    <% end %>
+    <%# <iframe title="vimeo-player" src="https://player.vimeo.com/video/604848994?h=e5c5caefa0&byline=0&portrait=0" width="1162" height="648" frameborder="0" allowfullscreen></iframe> %>
   </div>
 
 </div>

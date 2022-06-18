@@ -5,6 +5,30 @@
   padding: 0.1em;
 }
 
+.imgTile {
+  width: 1160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1em;
+}
+
+.imgTile:hover {
+  opacity: 0.8;
+}
+
+// Credits Pages
+.credits {
+  padding: 4em;
+  font-family: 'Smooch Sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.6em;
+  color: #222;
+  font-size: 0.8750em;
+}
+
 // Media breakpoints (screen resizing everything below 600px (phones) will recieve settings
  @media (max-width: 600px) {
   iframe {
