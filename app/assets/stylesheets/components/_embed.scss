@@ -43,7 +43,8 @@
   }
   .imgTile {
     width: 20.875rem;
-    height: fit-content;
+    // height: fit-content;
+    height: max-content;
   }
   .tiles {
     text-align: center;
