@@ -5,6 +5,13 @@
   padding: 0.1em;
 }
 
+.tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1em;
+}
+
 .imgTile {
   width: 1160px;
   display: flex;
@@ -33,17 +40,32 @@
  @media (max-width: 600px) {
   iframe {
     height: fit-content;
-    // padding-bottom: 1rem;
   }
-  .embedVid {
-    padding-bottom: 1rem;
+  .imgTile {
+    width: 20.875rem;
+    height: fit-content;
+  }
+  .tiles {
+    text-align: center;
   }
  }
 
  // Ipad sizing (size of iframe videos)
- @media (min-width:601px) and (max-width:991px) {
+ @media (min-width:601px) and (max-width:700px) {
   iframe {
     height: 21.875rem;
     padding: 0.625rem;
   }
+  .imgTile {
+    width: 30rem;
+    height: fit-content;
+  }
  }
+
+  // Small Laptop (size of iframe videos)
+  @media (min-width:701px) and (max-width:1170px) {
+    .imgTile {
+      width: 43rem;
+      height: fit-content;
+    }
+   }
