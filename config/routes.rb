@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root to: "home#index"
   get 'contact', to: 'home#contact', as: :contact
-  get '/tom', to: 'home#tom', as: :tom
-  get '/glennc', to: 'home#glennc', as: :glennc
+  get '/tomvdb-redemption', to: 'home#tomvdb-redemption', as: :tom
+  get '/glennc-giving-back', to: 'home#glennc-giving-back', as: :glennc
   get '/isabel', to: 'home#isabel', as: :isabel
   get '/opdruq', to: 'home#opdruq', as: :opdruq
   get '/tomvdb-monster-energy', to: 'home#tomvdb-monster-energy', as: :tomvdbmonsterenergy
