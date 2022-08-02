@@ -23,6 +23,12 @@ hr {
   }
 }
 
+@media (max-width: 700px) {
+  #footer {
+    margin-top: 30em;
+  }
+}
+
 // media queries (resizing)
 // All devices up to a width of 575 px = Most mobile Phones
 // @media (max-width: 575.98px) {

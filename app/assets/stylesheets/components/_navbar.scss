@@ -125,9 +125,6 @@
   .nav-item {
     padding-right: 0;
   }
-  // #titles {
-  //   justify-content: space-between;
-  // }
 }
 
 // screns smaller than 1300 px
@@ -143,12 +140,3 @@
     padding-right: 0;
   }
 }
-
-// .nav-item:active {
-//   a {
-//     color: black;
-//   }
-// }
-
-// <%= 'active' if current_page?(contact_path) %>
-// <%= 'active' if current_page?(root_path) %>
