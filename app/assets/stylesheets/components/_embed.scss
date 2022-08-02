@@ -14,6 +14,9 @@
 }
 
 .tile_title {
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 0.2em;
   font-family: 'Smooch Sans', sans-serif;
   font-style: bold;
   text-align: center;
