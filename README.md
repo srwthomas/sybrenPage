@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple website for a friend who is a Filmer/Editor, displaying the projects he has produced. The site has single pages for each project that contain various information relating to the productions, and a contact section with his personal details. 
 
-Things you may want to cover:
+* Livecode: 
 
-* Ruby version
+    https://sybrenplanting.herokuapp.com/ 
 
-* System dependencies
 
-* Configuration
+* Responsive for mobile / computers 
 
-* Database creation
+* Built with Rails 
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
