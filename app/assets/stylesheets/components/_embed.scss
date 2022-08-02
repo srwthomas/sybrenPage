@@ -8,7 +8,7 @@
 
 // Index / home page Section
 
-// tiles/videe-image links
+// tiles/video links
 .tiles {
   display: flex;
   position: relative;
@@ -62,6 +62,7 @@
     height: fit-content;
   }
   .imgTile {
+    object-fit: cover;
     width: 20.875rem;
     height: 17rem;
   }
