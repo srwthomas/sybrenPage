@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get '/bok-2019', to: 'home#bok-2019', as: :bok2019
   get '/vink-kunststoffen', to: 'home#vink-kunststoffen', as: :vinkkunststoffen
   get '/nalu-lost-frequenties-bts', to: 'home#nalu-lost-frequenties-bts', as: :nalu
+  get '/pump-factory', to: 'home#pump-factory', as: :pumpfactory
+  get '/team-trobbies', to: 'home#team-trobbies', as: :teamtrobbies
+  get '/madnes', to: 'home#madnes', as: :madnes
 
 end
 # nalu-lost-frequenties-bts
