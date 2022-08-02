@@ -9,13 +9,16 @@
 // add stills + to resize
 .stills {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
 
-// .still {
-
-// }
+.still {
+  width: 1160px;
+  display: flow-root;
+  padding: 0.3em;
+}
 
 // Index / home page Section
 
@@ -73,9 +76,9 @@
     height: fit-content;
   }
   .imgTile {
-    object-fit: cover;
     width: 20.875rem;
     height: 17rem;
+    object-fit: cover;
   }
   .tiles {
     text-align: center;
@@ -87,6 +90,11 @@
   .tile_title {
     font-size: 1em;
   }
+  .still {
+    width: 20.875rem;
+    height: 17rem;
+    object-fit: cover;
+  }
  }
 
  // Ipad sizing (size of iframe videos)
@@ -97,9 +105,15 @@
   .imgTile {
     width: 30.875rem;
     height: 27rem;
+    object-fit: cover;
   }
   .tile_title {
     font-size: 1.3em;
+  }
+  .still {
+    width: 30.875rem;
+    height: 27rem;
+    object-fit: cover;
   }
  }
 
@@ -111,5 +125,10 @@
     }
     .tile_title {
       font-size: 1.5em;
+    }
+    .still {
+      width: 43rem;
+      height: 40rem;
+      object-fit: cover;
     }
    }
