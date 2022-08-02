@@ -68,6 +68,9 @@
     letter-spacing: 0.1em;
     line-height: 1em;
   }
+  .tile_title {
+    font-size: 1em;
+  }
  }
 
  // Ipad sizing (size of iframe videos)
@@ -79,6 +82,9 @@
     width: 30.875rem;
     height: 27rem;
   }
+  .tile_title {
+    font-size: 1.3em;
+  }
  }
 
   // Small Laptop (size of iframe videos)
@@ -86,5 +92,8 @@
     .imgTile {
       width: 43rem;
       height: 40rem;
+    }
+    .tile_title {
+      font-size: 1.5em;
     }
    }
