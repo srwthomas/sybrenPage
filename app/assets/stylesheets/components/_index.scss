@@ -4,12 +4,11 @@
 @import "contact";
 
 // Body Styling
+// * {margin:0;}
 
-// .bodyDiv {
-//   width: 100%;
-//   height: auto;
-// }
-
-// .body {
-//   display: flex;
+// body{
+//   min-height: inherit;            /* fall-back */
+//   min-height: -moz-available;
+//   min-height: -webkit-fill-available;
+//   min-height: fill-available;
 // }
