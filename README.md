@@ -1,14 +1,14 @@
 # README
 
-Simple website for a friend who is a Filmer/Editor, displaying the projects he has produced. The site has single pages for each project that contain various information relating to the productions, and a contact section with his personal details. 
+Simple website for a friend who is a Filmer/Editor, displaying the projects he has produced. The site has single pages for each project that contain various information relating to the productions, and a contact section with his personal details.
 
-* Livecode: 
+*Still awaiting original img files*
 
-    https://sybrenplanting.herokuapp.com/ 
+* Livecode:
 
-
-* Responsive for mobile / computers 
-
-* Built with Rails 
+    https://sybrenplanting.herokuapp.com/
 
 
+* Responsive for mobile / computers
+
+* Built with Rails
