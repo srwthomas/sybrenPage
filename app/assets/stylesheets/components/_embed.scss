@@ -35,7 +35,8 @@
 .tile_title {
   backdrop-filter: blur(3px);
   border-radius: 10px;
-  // padding: 0.2em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
   font-family: 'Smooch Sans', sans-serif;
   font-weight: 700;
   text-align: center;
@@ -45,6 +46,10 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 3rem;
+}
+
+.tile_title, h6 {
+  line-height: 0.8em;
 }
 
 .imgTile {
