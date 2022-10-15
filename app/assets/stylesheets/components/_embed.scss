@@ -85,7 +85,7 @@
 // Media breakpoints (screen resizing everything below 600px (phones) will recieve settings
  @media (max-width: 600px) {
   iframe {
-    height: fit-content;
+    height: 15.625rem;
   }
   .imgTile {
     width: 20.875rem;
