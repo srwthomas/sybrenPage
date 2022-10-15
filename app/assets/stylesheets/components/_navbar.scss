@@ -13,9 +13,6 @@
   font-weight: 600;
   margin-left: 2em;
   letter-spacing: 0.2rem;
-  &:hover {
-    color:rgb(48, 25, 52);
-  }
 }
 
 .tagline {
@@ -24,13 +21,16 @@
   font-family: 'Smooch Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 200;
-
-  
+}
+// hover title
+a.navbar-brand.titleLink.titles:hover {
+  color: rgb(48, 25, 52);
 }
 
-// #titles {
-//   justify-content: space-around;
-// }
+// no hover tagline
+ a.tagline.titles:hover {
+  color: grey;
+ }
 
 .nav-item {
   padding:1rem;
