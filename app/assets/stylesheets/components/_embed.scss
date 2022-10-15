@@ -53,7 +53,7 @@
 }
 
 .imgTile {
-  background-color: black;
+  -webkit-filter: brightness(100%);
   width: 1160px;
   display: flex;
   align-items: center;
@@ -62,7 +62,12 @@
 }
 
 .imgTile:hover {
-  opacity: 0.8;
+  -webkit-filter: brightness(40%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 // Credits Pages
